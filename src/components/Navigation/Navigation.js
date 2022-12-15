@@ -1,10 +1,14 @@
 import React from 'react'
+import './Navigation.css'
 
 export default function Navigation() {
   return (
-    <div className='container'>
+    <section className='container'>
         <nav>
-            <img src='' alt='Not Available' className='logo'/>
+          <div className='logoImage'>
+            <img src='/myimage.jpg' alt='Not Available' className='logo'/>
+            <span className='name'>Harsh Swaroop Dubey</span>
+          </div>
             <ul className='navbar'>
                 <li><a href='' className='nav-anchor'>Home</a></li>
                 <li><a href='' className='nav-anchor'>About</a></li>
@@ -12,6 +16,6 @@ export default function Navigation() {
                 <li><a href='' className='nav-anchor'>Contact</a></li>
             </ul>
         </nav>  
-    </div>
+    </section>
   )
 }

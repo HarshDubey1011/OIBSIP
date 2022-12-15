@@ -4,19 +4,17 @@ import Header from './components/Header/Header'
 import Contact from './components/Contact/Contact'
 import Project from './components/Project/Project'
 import Footer from './components/Footer/Footer'
-
-
 import './App.css';
 
 function App() {
   return (
     <div className="App">
         <Navigation />
-        <Header />
-        <About />
+         <Header />
+        {/*<About />
         <Project />
         <Contact />
-        <Footer />
+        <Footer /> */}
     </div>
   );
 }
