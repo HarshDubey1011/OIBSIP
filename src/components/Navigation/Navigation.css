@@ -22,7 +22,7 @@ nav{
 }
 
 .nav-anchor{
-    padding-left: 50px;
+    margin-left: 50px;
     color:var(--text-color);
     font-size: 110%;
     font-weight: 500;
@@ -56,4 +56,11 @@ nav{
 
 .name:hover{
     color:var(--primary-color)
+}
+
+.icon{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    margin-top: 4px;
 }

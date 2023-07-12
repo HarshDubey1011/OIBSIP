@@ -1,0 +1,49 @@
+.footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.footerAlign {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+}
+
+.footerDetails{
+	width: 60%;
+}
+
+.footerHR{
+	margin: 2% 9%;
+	border: 1px solid #fff;
+	opacity: 0.2;
+}
+
+.footerName{
+	font-size: 20px;
+	font-weight: 700;
+}
+.footerPara{
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.footerSpan{
+	font-size: 15px;
+	padding: 20px;
+}
+
+.footerIcons h3{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.footerLink{
+	color: #fff;
+	margin-top: 30px;
+	margin-right: 12px;
+	font-size: 25px;
+}
